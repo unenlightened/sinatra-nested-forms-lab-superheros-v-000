@@ -8,5 +8,6 @@ class Member
 
   def initialize(args)
     @name, @power, @bio = args[:name], args[:power], args[:bio]
+    @@all << self
   end
 end
