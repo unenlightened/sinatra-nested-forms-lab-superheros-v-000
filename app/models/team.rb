@@ -1,7 +1,7 @@
 class Team
   attr_accessor :name, :motto
 
-  def initialize(:name, :motto)
-    @name, @motto = :name, :motto
+  def initialize(args)
+    @name, @motto = args[:name], args[:bio]
   end
 end
