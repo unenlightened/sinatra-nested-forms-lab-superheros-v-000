@@ -6,7 +6,7 @@ class Member
     @@all
   end
 
-  def initialize(:name, :power, :bio)
-    @name, @power, @bio = :name, :power, :bio
+  def initialize(name:, power:, bio:)
+    @name, @power, @bio = name, power, bio
   end
 end
